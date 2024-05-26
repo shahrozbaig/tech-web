@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #ec4242;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #141414;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            position: relative;
+            height: 80vh;
+            background: url('https://via.placeholder.com/1600x900') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .content {
+            margin-top: 80vh;
+            padding: 20px;
+        }
+        .row {
+            margin: 20px 0;
+        }
+        .row h2 {
+            margin: 0 0 10px 20px;
+        }
+        .row .items {
+            display: flex;
+            overflow-x: scroll;
+            padding: 10px;
+        }
+        .row .item {
+            min-width: 200px;
+            margin-right: 10px;
+            background: #333;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="logo">
+            <a href="#" style="color: red; font-weight:bolder">watch.tv</a>
+        </div>
+
+        <div class="menu">
+            <a href="file:///C:/Users/Lenovo/Desktop/shahroz%20data/watch.tvb/sign%20in.html" style="color: red;font-weight: bolder;" >sign up</a>
+            <a href="file:///C:/Users/Lenovo/Desktop/shahroz%20data/watch.tvb/sign%20in.html" style="color: red;font-weight: bolder;" >sign in</a>
+            <a href="#" style="color: red;font-weight: bolder;" >Home</a>
+            <a href="#" style="color: red; font-weight: bolder;">TV Shows</a>
+            <a href="file:///C:/Users/Lenovo/Desktop/shahroz%20data/movies.html" style="color: red; font-weight: bolder;">Movies</a>
+            <a href="#" style="color: red; font-weight: bolder;">New & Popular</a>
+            <a  href="#" style="margin-right: 50px; color: red; font-weight: bolder;">My List</a>
+        </div>
+    </div>
+
+      
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 50px; height: 30px; ">
+        <form action="https://www.google.com/search" method="get" style="display: flex; margin-top: 30px; margin-left: 30px; background: #fff; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+            <input type="text" name="q" placeholder="Search for a website..." style="width: 100px;  border: 1px solid #ccc; border-radius: 5px 0 0 5px; outline: none;">
+            <button type="submit" style="padding: 10px 20px; border: none; background: #eb2222; color: white; border-radius: 0 5px 5px 0; cursor: pointer;">Search</button>
+        </form>
+    </div>       
+        <h1 style=" color: red;font-weight: bolder; text-align: center; margin-top: 400px; font-size: 100px; "> Featured Show</h1>
+            <p style="color: red;font-weight: bolder; text-align: center; font-size: 30px;"> Watch the latest blockbuster now</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row">
+            <h2 style="color: red;font-weight: bolder;">Trending Now</h2>
+            <div class="items" > 
+                <div class="item" style="color: red;font-weight: bolder; text-align: center;"> 
+                    <Image src="image008.png" style="height:300px; width: 250px; ">  </Image></div>    
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <Image src="images.jfif" style="height:300px; width: 250px; ">  </Image>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <Image src="images.jfif" style="height:300px; width: 250px; ">  </Image>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="download.jfif" style="height:300px; width: 250px; ">  </Image></div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 style="color: red;font-weight: bolder;">Popular on watch.tv</h2>
+            <div class="items">
+                <div class="item"style="color: red;font-weight: bolder;"><Image src="download.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item"style="color: red;font-weight: bolder;"><Image src="download.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item"style="color: red;font-weight: bolder;"><Image src="download.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="download.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="download.jfif" style="height:300px; width: 250px; ">  </Image></div>
+            </div>
+        </div>
+        <div class="row">
+            <h2>New Releases</h2>
+            <div class="items">
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+                <div class="item" style="color: red;font-weight: bolder;"><Image src="images.jfif" style="height:300px; width: 250px; ">  </Image></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
